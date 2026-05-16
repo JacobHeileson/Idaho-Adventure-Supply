@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idaho Adventure Supply</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Idaho Adventure Supply</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gear">Gear</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <section id="home">
+        <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1400&auto=format&fit=crop" class="d-block w-100" alt="Mountains">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Explore The Outdoors</h2>
+                        <p>Adventure-ready gear for every journey.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1400&auto=format&fit=crop" class="d-block w-100" alt="Camping">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Camp With Confidence</h2>
+                        <p>Reliable equipment for unforgettable trips.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1400&auto=format&fit=crop" class="d-block w-100" alt="Hiking">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Gear Up For Adventure</h2>
+                        <p>Built for hikers, campers, and explorers.</p>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container py-5">
+        <h1 class="text-center mb-4">About Us</h1>
+        <p class="text-center">
+            Idaho Adventure Supply provides dependable outdoor equipment for hiking,
+            camping, backpacking, and exploring the outdoors. Our goal is to help
+            adventurers stay prepared with high-quality gear and reliable equipment.
+        </p>
+    </section>
+
+    <!-- Product Cards -->
+    <section id="gear" class="container py-5">
+        <h1 class="text-center mb-5">Popular Gear</h1>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?q=80&w=1000&auto=format&fit=crop" class="card-img-top" alt="Backpack">
+                    <div class="card-body">
+                        <h3 class="card-title">Trail Backpack</h3>
+                        <p class="card-text">
+                            Lightweight and durable backpack built for long hiking trips.
+                        </p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=1000&auto=format&fit=crop" class="card-img-top" alt="Tent">
+                    <div class="card-body">
+                        <h3 class="card-title">Camping Tent</h3>
+                        <p class="card-text">
+                            Weather-resistant tent designed for comfort and durability.
+                        </p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=1000&auto=format&fit=crop" class="card-img-top" alt="Boots">
+                    <div class="card-body">
+                        <h3 class="card-title">Hiking Boots</h3>
+                        <p class="card-text">
+                            Comfortable boots with strong traction for outdoor terrain.
+                        </p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="container py-5">
+        <h1 class="text-center mb-4">Contact Us</h1>
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">
+          Idaho Adventure Supply | Built with Bootstrap 5
+        </p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
